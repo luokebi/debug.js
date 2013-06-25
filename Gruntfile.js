@@ -30,7 +30,7 @@ module.exports = function(grunt) {
         noarg: true,
         sub: true,
         undef: true,
-        unused: true,
+        unused: false,
         boss: true,
         eqnull: true,
         browser: true,
