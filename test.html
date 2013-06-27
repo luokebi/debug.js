@@ -2,11 +2,29 @@
 <html>
 <head>
     <title></title>
+<style type="text/css">
+body{
+    font-family: georgia;
+}
+</style>
 </head>
 <body>
+<h1>Debug.js</h1>
+<h3>Features</h3>
+<p>1.can set prefix for the content of what you want to log.</p>
+<p>2.can disable all method.</p>
+<h3>See console in the developer tool</h3>
 <script src="./dist/debug.min.js"></script>
+<!--<script src="./src/debug.js"></script>-->
+
 <script>
+    debug.setPrefix('Diigo');
+    //debug.disable();
     debug.log("hi");
+    debug.info("hi2");
+    debug.warn("hi3");
+    debug.error("hi4");
+    debug.debug("hi5");
 </script>
 </body>
 </html>
