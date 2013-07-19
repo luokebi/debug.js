@@ -1,14 +1,18 @@
 debug.js
 ========
 
-## Features:
-1. Ability to set prefix for the content of what you want to log.
-~~~js
+### Features:
+
+
+Ability to set prefix for the content of what you want to log.
+
+```javascript
 debug.setPrefix("XXX:");
 debug.log("hello world"); // log "XXX:hello world"
-~~~
-2. Ability to disable all method.
-~~~js
+```
+Ability to disable all method.
+
+```javascript
 debug.disable();
 debug.log("hello world"); // nothing will to log
-~~~
+```
